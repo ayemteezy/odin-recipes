@@ -1,66 +1,67 @@
-# Project Title
+# Odin Recipes
 
-One Paragraph of project description goes here
+A basic HTML website built as part of The Odin Project's Foundations curriculum to demonstrate foundational web development skills.
 
 ### Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+The Odin Recipes project is a simple multi-page static website. It features a main homepage linked to individual recipe pages for guacamole, lasagna, and leche flan. The project focuses entirely on semantic HTML structure without CSS styling.
 
 ### Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+This project exists to practice structural HTML concepts, internal relative file linking, image rendering, and initial Git workflow management (adding, committing, and pushing to GitHub).
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Follow these steps to view the website or modify the code locally.
 
 ### Prerequisities
 
-What things you need to install the software and how to install them
+You only need a standard text editor and a browser.
 
-```
-Give examples
-```
+- Text Editor: Visual Studio Code (recommended)
+- Browser: Google Chrome or Mozilla Firefox
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+1.  Clone the repository to your desktop:
 
-Stay what the step will be
-
-```
-Give the example
-```
-
-And repeat
+```git clone https://github.com/ayemteezy/odin-recipes.git
 
 ```
-until finished
+
+2. Open the project folder in VS Code:
+
+```code odin-recipes
+
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+3. Open index.html in your browser to view the final result.
 
 ## Example Use
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+The repository uses relative file paths to link the main page to the recipes directory:
+
+```<!-- Example from index.html linking to a recipe -->
+<a href="recipes/lasagna.html">Delicious Homemade Lasagna</a>
+```
 
 ## API Reference
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+No APIs are used in this introductory project.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+There are no automated test suites for this repository.
 
 ### And coding style tests
+
+Ensure your code passes the following manual checks required by The Odin Project:
+
+- All tags are lowercase and properly closed.
+- All images include descriptive alt text.
+- All file paths to images and recipe pages are relative and correct.
+
+###
 
 Explain what these tests test and why
 
